@@ -5,18 +5,6 @@ experiments** of **"CogExtract: Credit Assignment for Visual-Language Web
 Information Extraction"** (ICLR 2027 submission). It ships as a self-contained
 package of code + data + archived page snapshots.
 
-## Slimming Notes
-
-This is a trimmed version of the full supplementary-material package. Compared
-with the original, it drops the offline mechanism-analysis scripts and a few
-auxiliary data directories, and keeps only the **main experiment (Cog)**, the
-**ablations**, the **comparison baselines (VGS / CoT / Reflexion)**, the **full
-dataset**, and the **8 archived pages** needed for the offline `quick` run. The
-`cache/pages` directory is therefore reduced to those 8 pages.
-
-The remaining directory layout matches the original repository; default paths are
-resolved relative to the package root.
-
 ## Directory Structure
 
 ```
