@@ -7,18 +7,12 @@ package of code + data + archived page snapshots.
 
 ## Slimming Notes
 
-This is a trimmed version of the full supplementary-material package. The
-following have been removed:
-
-- **`analyses/`** — the zero-API-cost offline mechanism-analysis (paper §5 /
-  appendix) is not packaged.
-- **`expected/`** — the archived baseline / expected-value comparison tables are
-  not packaged.
-- **`cxs` (Contrastive XPath Synthesis)** method and its files are deleted:
-  `vgs/cxs_pipeline.py`, `vgs/contrastive_synthesis.py`, and the CXS prompt
-  block inside `vgs/prompts.py`.
-- **`cache/pages`** is reduced to the **8 archived pages** needed for the offline
-  `quick` run (each page keeps `page.html` + screenshots).
+This is a trimmed version of the full supplementary-material package. Compared
+with the original, it drops the offline mechanism-analysis scripts and a few
+auxiliary data directories, and keeps only the **main experiment (Cog)**, the
+**ablations**, the **comparison baselines (VGS / CoT / Reflexion)**, the **full
+dataset**, and the **8 archived pages** needed for the offline `quick` run. The
+`cache/pages` directory is therefore reduced to those 8 pages.
 
 The remaining directory layout matches the original repository; default paths are
 resolved relative to the package root.
